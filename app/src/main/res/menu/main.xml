@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_noconnection"
+        android:icon="@mipmap/ic_noconnection"
+        android:orderInCategory="100"
+        android:title="@string/action_noconnection"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_mode"
+        android:icon="@mipmap/ic_orders"
+        android:orderInCategory="200"
+        android:title="@string/action_orders"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@mipmap/ic_refresh"
+        android:orderInCategory="300"
+        android:title="@string/action_refresh"
+        app:showAsAction="always" />
+
+</menu>

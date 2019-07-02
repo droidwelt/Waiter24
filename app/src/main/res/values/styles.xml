@@ -1,0 +1,101 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+
+    <style name="AppThemeNoBar" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="textColorMy">@color/c_order_7</item>
+        <item name="backgroundMy">@color/c_order_7</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+
+
+    <style name="AppThemeNoBarLight" parent="AppThemeNoBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/c_text_light</item>
+        <item name="android:background">@color/c_bg_light</item>
+    </style>
+
+    <style name="AppThemeNoBarDark" parent="AppThemeNoBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/c_text_dark</item>
+        <item name="android:background">@color/c_bg_dark</item>
+    </style>
+
+
+    <style name="AppThemeNoBar.Transparent" parent="AppThemeNoBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@drawable/trans</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+    <style name="AppTheme.Dialog" parent="@style/Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppThemeDialogLight" parent="AppTheme.Dialog">
+        <item name="android:textColor">@color/c_text_light</item>
+        <item name="android:background">@color/c_bg_light</item>
+    </style>
+
+    <style name="AppThemeDialogDark" parent="AppTheme.Dialog">
+        <item name="android:textColor">@color/c_text_dark</item>
+        <item name="android:background">@color/c_bg_dark</item>
+    </style>
+
+
+    <style name="AlertDialogColorButton" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:buttonBarNegativeButtonStyle">@style/RedButton</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/GreenButton</item>
+    </style>
+
+    <style name="RedButton" parent="android:Widget.DeviceDefault.Button.Borderless">
+        <item name="android:textColor">@color/c_reddialog</item>
+    </style>
+
+    <style name="GreenButton" parent="android:Widget.DeviceDefault.Button.Borderless">
+        <item name="android:textColor">@color/c_greendialog</item>
+    </style>
+
+
+</resources>

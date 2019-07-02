@@ -1,0 +1,130 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Waiter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Waiter</string>
+    <string name="nav_header_subtitle">Имя официанта</string>
+    <string name="nav_header_desc">Заголовок</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="action_noconnection">Нет соединения</string>
+    <string name="action_orders">Заказы</string>
+    <string name="action_positions">Позиции</string>
+
+    <string name="menu_connectiontest">Тест соединения</string>
+    <string name="menu_about">О программе</string>
+    <string name="menu_setting">Настройки</string>
+    <string name="menu_update">Обновление приложения</string>
+
+    <string name="s_loadmenu_apkloading">Приложение загружается… Пожалуйста, не прерывайте этот процесс</string>
+    <string name="s_loadmenu_uselastversion">Вы используете актуальную версию приложения. Обновление не требуется</string>
+    <string name="s_loadmenu_updatestart">Сейчас будет произведено обновление приложения. Вам необходимо принять предложение об установке новой версии приложения.</string>
+
+
+
+    <string name="about_prog">Это демонстрационная программа</string>
+    <string name="about_prog2" tools:ignore="MissingTranslation" translatable="false">www.altamix.ru</string>
+    <string name="s_empty" translatable="false" />
+
+    <string name="s_ord_total">Сумма заказа</string>
+    <string name="s_ord_total2">Сумма</string>
+    <string name="s_ord_category" translatable="false">category</string>
+    <string name="s_ord_name" translatable="false">name</string>
+    <string name="s_ord_price" translatable="false">price</string>
+    <string name="s_ord_tableno" translatable="false">tableno</string>
+    <string name="s_ord_orderno" translatable="false">orderno</string>
+    <string name="s_ord_weight" translatable="false">weight</string>
+    <string name="s_ord_energy" translatable="false">energy</string>
+    <string name="s_ord_annotation" translatable="false">annotation</string>
+    <string name="s_ord_null" translatable="false">0.0</string>
+    <string name="s_ord_one" translatable="false">1</string>
+    <string name="s_lang_ru" translatable="false">RU</string>
+    <string name="s_lang_lv" translatable="false">LV</string>
+    <string name="s_lang_en" translatable="false">EN</string>
+    <string name="s_theme_dl" translatable="false">DL</string>
+    <string name="s_nom_nomer" translatable="false">1</string>
+    <string name="s_nom_price" translatable="false">E 24.7</string>
+    <string name="s_nom_state" translatable="false">state state state</string>
+    <string name="s_nom_payment" translatable="false">payment payment</string>
+    <string name="s_pos_name" translatable="false">name</string>
+    <string name="s_pos_tableno" translatable="false">11.2</string>
+    <string name="s_pos_category" translatable="false">category</string>
+    <string name="s_pos_price" translatable="false">price</string>
+
+    <string name="s_confirm_request">Требуется подтверждение</string>
+    <string name="s_settings">Настройки</string>
+    <string name="s_acs_deny">Нет доступа к</string>
+    <string name="s_order">Заказ</string>
+    <string name="s_nomer">Ваши заказы</string>
+    <string name="s_retina">Счёт</string>
+    <string name="s_order_state">Состояние заказа</string>
+
+    <string name="s_action_close">Закрыть</string>
+
+    <string name="s_enter_login">Введите код доступа</string>
+    <string name="s_wrong_code">Код не принят</string>
+
+    <string name="s_yes">ДА</string>
+    <string name="s_no">НЕТ</string>
+    <string name="s_exitappl_header">Завершить приложение Waiter ?</string>
+    <string name="s_exitappl_body">Нажмите ДА, если хотите завершить приложение Waiter</string>
+    <string name="s_about">О программе</string>
+
+    <string name="s_toastPicture" tools:ignore="MissingTranslation" translatable="false">ToastPicture</string>
+    <string name="s_customToast" tools:ignore="MissingTranslation" translatable="false">Custom Toast</string>
+    <string name="s_image" tools:ignore="MissingTranslation" translatable="false">Image</string>
+
+    <string name="s_pref_waiter_name_header">ПЕРСОНАЛИЗАЦИЯ</string>
+    <string name="s_pref_waitercode">Код доступа официанта</string>
+    <string name="s_pref_waitercode_summary">Укажите код доступа официанта</string>
+
+
+    <string name="s_pref_server_header">НАСТРОЙКИ СОЕДИНЕНИЯ С СЕРВЕРОМ</string>
+    <string name="s_pref_server_address">Адрес сервера</string>
+    <string name="s_pref_server_address_summary">(например, 192.168.1.2)</string>
+    <string name="s_pref_server_addr_not_def">Адрес сервера не определён</string>
+    <string name="s_pref_server_set_size">Установлен размер </string>
+    <string name="s_pref_server_net_mobile">Мобильные данные</string>
+    <string name="s_pref_server_net_mobile_summary">Использовать мобильные данные</string>
+    <string name="s_pref_server_net_wifi">WiFi</string>
+    <string name="s_pref_server_net_wifi_summary">Использовать WiFi</string>
+
+    <string name="s_pref_prgaction_header">ПОВЕДЕНИЕ ПРОГРАММЫ</string>
+
+    <string name="s_pref_design_header">ОФОРМЛЕНИЕ ПРОГРАММЫ</string>
+
+    <string name="s_order_0">Не выбрано</string>
+    <string name="s_order_1">Выбирает</string>
+    <string name="s_order_2">Передается</string>
+    <string name="s_order_3">Заказано</string>
+    <string name="s_order_4">Исполняется</string>
+    <string name="s_order_5">Исполнено</string>
+    <string name="s_order_6">Подано</string>
+    <string name="s_order_7">Подано</string>
+    <string name="s_order_8">Подано</string>
+    <string name="s_order_9">Подано</string>
+
+    <string name="s_payment_0" tools:ignore="MissingTranslation" translatable="false"> </string>
+    <string name="s_payment_1" tools:ignore="MissingTranslation" translatable="false"> </string>
+    <string name="s_payment_2">Можно заказать счёт</string>
+    <string name="s_payment_3">Можно заказать счёт</string>
+    <string name="s_payment_4">Можно заказать счёт</string>
+    <string name="s_payment_5">Можно заказать счёт</string>
+    <string name="s_payment_6">Можно заказать счёт</string>
+    <string name="s_payment_7">Счет !</string>
+    <string name="s_payment_8">Счет !!</string>
+    <string name="s_payment_9">Оплачено</string>
+
+    <string name="s_internet_connection_not_available" translatable="false">Нет подключения к Интернет</string>
+    <string name="s_pref_vibrate_table">Вибрация при звонке клиента</string>
+    <string name="s_pref_vibrate_summary">Вы можете включить вибрацию при звонке клиента</string>
+
+    <string name="s_server_adress_invalid" translatable="false">Недопустимый адрес сервера</string>
+    <string name="s_error_api" translatable="false">Не удалось выполнить запрос</string>
+    <string name="s_getting_json_message" translatable="false">Получение и обработка данных</string>
+    <string name="s_setting_json_message" translatable="false">Обработка и сохранение данных</string>
+
+    <string name="s_billpayed">Счёт оплачен ?</string>
+
+
+</resources>

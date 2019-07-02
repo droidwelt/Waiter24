@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ly_ord_main"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:id="@+id/ly_ord_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/c_white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/c_transparent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/order_table"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/s_ord_tableno"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/c_text_light"
+                android:textStyle="bold" />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="36dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/order_call"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@mipmap/ic_ring_red" />
+
+                <ImageView
+                    android:id="@+id/order_neworder"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/ic_new_order" />
+
+                <ImageView
+                    android:id="@+id/order_newpayment"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="parent"
+                    app:srcCompat="@mipmap/ic_new_payment" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

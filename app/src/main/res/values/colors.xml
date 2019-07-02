@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#296B8A</color>
+    <color name="colorPrimaryDark">#103353</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="c_add">#43A047</color>
+    <color name="c_del">#989898</color>
+    <color name="c_white">#FFFFFF</color>
+
+    <color name="c_red">#FF0000</color>
+    <color name="c_reddialog">#FF0000</color>
+    <color name="c_greendialog">#3EA800</color>
+    <color name="c_ord_total">#388E3C</color>
+
+    <color name="c_order_0">#C6D5C6</color>
+    <color name="c_order_1">#43A047</color>
+    <color name="c_order_2">#FDCB35</color>
+    <color name="c_order_3">#FFB300</color>
+    <color name="c_order_4">#FB8C00</color>
+    <color name="c_order_5">#E53935</color>
+    <color name="c_order_6">#1EADE5</color>
+    <color name="c_order_7">#3987AB</color>
+    <color name="c_order_8">#1E56E5</color>
+    <color name="c_order_9">#AB3939</color>
+
+    <color name="c_fiolet">#6200EA</color>
+
+    <color name="c_posstate_0">#FFFFFF</color>
+    <color name="c_posstate_1">#FFE57F</color>
+    <color name="c_posstate_2">#A7FFEB</color>
+
+    <color name="c_lightgray">#EEEEEE</color>
+
+    <color name="c_transparent">@android:color/transparent</color>
+
+    <color name="c_staff">#a0a0a0</color>
+
+    <color name="c_bgr_text">#FFFFFF</color>
+
+    <color name="c_text">#000000</color>
+    <color name="c_toast_text">#000000</color>
+
+    <color name="c_cat_normal">#FFFFFF</color>
+    <color name="c_cat_selected">#EEFFCC</color>
+
+    <color name="c_background_et">#FFF3E0</color>
+    <color name="c_background_green">#0B3030</color>
+    <color name="c_background">#555150</color>
+
+    <color name="c_staffbotton">#388E3C</color>
+
+    <color name="c_text_light">#000000</color>
+    <color name="c_bg_light">#FFFFFF</color>
+    <color name="c_bg2_light">#FFF3E0</color>
+    <color name="c_bgsel_light">#A22626</color>
+
+    <color name="c_text_dark">#FFFFFF</color>
+    <color name="c_bg_dark">#694C46</color>
+    <color name="c_bg2_dark">#9B5646</color>
+    <color name="c_bgsel_dark">#FCC5C2</color>
+</resources>
